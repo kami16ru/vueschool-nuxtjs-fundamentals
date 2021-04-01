@@ -5,9 +5,6 @@
 </template>
 
 <style>
-h1 {
-  color: green;
-}
 html {
   font-family:
     'Source Sans Pro',
