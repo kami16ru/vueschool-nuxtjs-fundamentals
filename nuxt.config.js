@@ -1,4 +1,16 @@
 export default {
+
+  mode: 'universal',
+
+  generate: {
+    routes: [
+      '/posts/balut',
+      '/posts/balut2231',
+      '/posts/balutfasd',
+      '/posts/bal00ut32100000'
+    ]
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'vueschool-nuxtjs-fundamentals',
