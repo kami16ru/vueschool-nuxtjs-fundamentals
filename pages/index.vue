@@ -26,6 +26,17 @@ export default {
   components: {
     Logo
   },
+  head () {
+    return {
+      title: '1221122121',
+      meta: [
+        { name: 'twitter:title', content: 'fdasf' },
+        { name: 'twitter:description', content: 'fadsf' },
+        { name: 'twitter:image', content: 'https://i.imgur.com/UYP2umJ.png' },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ]
+    }
+  },
   computed: {
     posts() {
       return this.$store.state.posts.all
