@@ -12,7 +12,7 @@
 
 <script>
 export default {
-name: "TheNavbar"
+  name: 'TheNavbar'
 }
 </script>
 
